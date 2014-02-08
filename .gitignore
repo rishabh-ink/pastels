@@ -1,1 +1,5 @@
+*.sublime-*
+*.DS_Store
 _site
+lib
+.sass-cache
