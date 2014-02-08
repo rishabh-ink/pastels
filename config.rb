@@ -28,7 +28,7 @@ images_dir = 'img'
 javascripts_dir = 'js'
 
 # The output style for the compiled css. One of: :nested, :expanded, :compact, or :compressed.  (Symbol)
-output_style = :compressed
+output_style = :expanded
 
 # Indicates whether the compass helper functions should generate relative urls from the generated css to assets, or absolute urls using the http path for that asset type.  (Boolean)
 relative_assets = true
