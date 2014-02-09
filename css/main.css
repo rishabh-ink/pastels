@@ -427,21 +427,43 @@ ul {
 }
 
 /**
+ * Settings
+ */
+/**
  * Components
  */
-/* line 1, components/_body.scss */
+/* Apply a natural box layout model to all elements. */
+/* line 4, components/_body.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, components/_body.scss */
 body {
   font-family: sans-serif;
   text-align: center;
+}
+
+/* line 1, components/_container.scss */
+.container {
+  margin-top: 9rem;
 }
 
 /* line 1, components/_header.scss */
 .header {
   background-color: silver;
   padding: 1rem;
+  position: fixed;
+  height: 8rem;
+  width: 100%;
+  top: 0;
 }
 
-/* line 6, components/_header.scss */
+/* line 10, components/_header.scss */
 .menu {
   list-style: none;
 }

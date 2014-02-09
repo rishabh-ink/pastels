@@ -16,13 +16,22 @@
 
 
 
+/**
+ * Settings
+ */
+@import "settings/settings";
+
+
+
 
 
 /**
  * Components
  */
 @import "components/body";
+@import "components/container";
 @import "components/header";
+@import "components/footer";
 
 
 
