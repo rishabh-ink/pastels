@@ -433,7 +433,7 @@ ul {
  * Components
  */
 /* Apply a natural box layout model to all elements. */
-/* line 4, components/_body.scss */
+/* line 4, components/_html.scss */
 *,
 *:before,
 *:after {
@@ -442,7 +442,12 @@ ul {
   box-sizing: border-box;
 }
 
-/* line 10, components/_body.scss */
+/* line 10, components/_html.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 1, components/_body.scss */
 body {
   font-family: sans-serif;
   text-align: center;
