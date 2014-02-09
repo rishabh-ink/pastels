@@ -4,6 +4,26 @@ layout: blog
 
 <section class="banner">
 
-  {{ content }}
+  <h1 class="banner__title">{{ title }}</h1>
+
+  <img src="{{ logo }}" class="banner__logo" alt="{{ title }}" />
+
+  <h2 class="banner__subtitle">{{ subtitle }}</h2>
+
+  <p class="banner__description">{{ description }}</p>
+
+  <ul class="banner__action">
+    <li class="action__item  action__item--one">
+      <a href="action.one.link">{{ actions.one.name }}</a>
+    </li>
+    <li class="action__item  action__item--two">
+      <a href="action.two.link">{{ actions.two.name }}</a>
+    </li>
+    <li class="action__item  action__item--three">
+      <a href="action.three.link">{{ actions.three.name }}</a>
+    </li>
+  </ul> <!-- /.banner__actions -->
 
 </section> <!-- /.banner -->
+
+{{ content }}
