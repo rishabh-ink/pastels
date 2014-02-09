@@ -1,6 +1,6 @@
 # ⚑ Site - Basics
-# Site name
-name: "Pastels"
+# Site title
+title: "Pastels"
 
 # Site logo (partial-URL relative to /img/)
 logo: "logo/pastels-logo.png"
