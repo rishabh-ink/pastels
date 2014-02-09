@@ -1,5 +1,5 @@
 /**
- * Project scaffolding
+ * ⚑ Project scaffolding
  */
 @import "compass";
 @import "CSS:../lib/normalize-css/normalize";
@@ -9,7 +9,7 @@
 
 
 /**
- * Overrides
+ * ⚑ Overrides
  */
 @import "overrides/reset";
 
@@ -17,7 +17,7 @@
 
 
 /**
- * Settings
+ * ⚑ Settings
  */
 @import "settings/settings";
 
@@ -26,11 +26,13 @@
 
 
 /**
- * Components
+ * ⚑ Components
  */
 @import "components/html";
 @import "components/body";
 @import "components/container";
+@import "components/banner";
+@import "components/item";
 @import "components/header";
 @import "components/footer";
 

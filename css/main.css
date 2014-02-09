@@ -1,5 +1,6 @@
+@charset "UTF-8";
 /**
- * Project scaffolding
+ * ⚑ Project scaffolding
  */
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
@@ -418,7 +419,7 @@ table {
 }
 
 /**
- * Overrides
+ * ⚑ Overrides
  */
 /* line 1, overrides/_reset.scss */
 ul {
@@ -427,10 +428,16 @@ ul {
 }
 
 /**
- * Settings
+ * ⚑ Settings
  */
 /**
- * Components
+ * ⚑ Heights
+ */
+/**
+ * ⚑ Z-index management
+ */
+/**
+ * ⚑ Components
  */
 /* Apply a natural box layout model to all elements. */
 /* line 4, components/_html.scss */
@@ -458,6 +465,22 @@ body {
   margin-top: 9rem;
 }
 
+/* line 1, components/_banner.scss */
+.banner {
+  position: fixed;
+  height: 20rem;
+  width: 100%;
+  top: 8rem;
+  z-index: 5;
+}
+
+/* line 1, components/_item.scss */
+.item {
+  margin-top: 28rem;
+  position: relative;
+  z-index: 10;
+}
+
 /* line 1, components/_header.scss */
 .header {
   background-color: silver;
@@ -466,9 +489,10 @@ body {
   height: 8rem;
   width: 100%;
   top: 0;
+  z-index: 15;
 }
 
-/* line 10, components/_header.scss */
+/* line 11, components/_header.scss */
 .menu {
   list-style: none;
 }

@@ -1,0 +1,5 @@
+.item {
+  margin-top: ($header-height + $banner-height);
+  position: relative;
+  z-index: $item-zindex;
+}

@@ -1,0 +1,7 @@
+.banner {
+  position: fixed;
+  height: $banner-height;
+  width: 100%;
+  top: $header-height;
+  z-index: $banner-zindex;
+}
