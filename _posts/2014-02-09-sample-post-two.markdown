@@ -2,7 +2,7 @@
 layout: post
 title:  "Sample post 2"
 date:   2014-02-09 20:23:08
-categories: jekyll update
+categories: posts
 
 logo: "logo/pastels-logo.png"
 subtitle: "A pastel-y and creamy Jekyll theme."

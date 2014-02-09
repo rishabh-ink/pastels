@@ -1,0 +1,10 @@
+---
+layout: page
+categories: pages
+
+title: "Item 1"
+logo: "logo/pastels-logo.png"
+subtitle: "Item 1"
+description: "Item 1."
+---
+Item 1
