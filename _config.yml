@@ -1,8 +1,20 @@
-# Site
+# ⚑ Site
+# Site name
 name: Pastels
+
+# Site logo (partial-URL relative to /img/)
+logo: logo/pastels-logo.png
+
+# Site sub-title
 subtitle: A pastel-y and creamy Jekyll theme.
+
+# A short description for your site
 description: Handcrafted with &#10084; by Rishabh Rao
 
-# Jekyll configuration
+
+
+
+
+# ⚑ Jekyll configuration
 markdown: redcarpet
 pygments: true
