@@ -4,25 +4,23 @@ layout: blog
 
 <section class="banner">
 
-  <h1 class="banner__title">{{ title }}</h1>
+  <h1 class="banner__title">{{ page.title }}</h1>
 
-  <img src="{{ logo }}" class="banner__logo" alt="{{ title }}" />
+  <img src="/img/{{ page.logo }}" class="banner__logo" alt="{{ page.title }}" />
 
-  <h2 class="banner__subtitle">{{ subtitle }}</h2>
+  <h2 class="banner__subtitle">{{ page.subtitle }}</h2>
 
-  <p class="banner__description">{{ description }}</p>
+  <p class="banner__description">{{ page.description }}</p>
 
-  <ul class="banner__action">
-    <li class="action__item  action__item--one">
-      <a href="action.one.link">{{ actions.one.name }}</a>
-    </li>
-    <li class="action__item  action__item--two">
-      <a href="action.two.link">{{ actions.two.name }}</a>
-    </li>
-    <li class="action__item  action__item--three">
-      <a href="action.three.link">{{ actions.three.name }}</a>
-    </li>
-  </ul> <!-- /.banner__actions -->
+  {% if page.actions %}
+    <ul class="banner__action">
+      {% for action in page.actions %}
+        <li class="action__item  action__item--{{ action.style }}">
+          <a href="{{ action.link }}">{{ action.name }}</a>
+        </li>
+      {% endfor %}
+    </ul> <!-- /.banner__actions -->
+  {% endif %}
 
 </section> <!-- /.banner -->
 
