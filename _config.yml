@@ -2,6 +2,9 @@
 # Site title
 title: "Pastels"
 
+# Site author
+author: "Rishabh Rao"
+
 # Site logo (partial-URL relative to /img/)
 logo: "logo/pastels-logo.png"
 
