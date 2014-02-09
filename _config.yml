@@ -1,4 +1,4 @@
-# ⚑ Site
+# ⚑ Site - Basics
 # Site name
 name: Pastels
 
@@ -10,6 +10,21 @@ subtitle: A pastel-y and creamy Jekyll theme.
 
 # A short description for your site
 description: Handcrafted with &#10084; by Rishabh Rao
+
+
+
+
+
+# ⚑ Site - Advanced
+social:
+  # Author's Twitter handle
+  twitter: rishabhsrao
+
+  # Author's Github handle
+  github: rishabhsrao
+
+  # Author's Facebook handle
+  facebook: rishabhsrao
 
 
 
