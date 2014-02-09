@@ -19,10 +19,6 @@ description: "Handcrafted with &hearts; by Rishabh Rao"
 
 
 # ⚑ Site - Advanced
-# Pagination
-paginate: 2
-paginate_path: "posts/page-:num"
-
 # Social media
 social:
   # Author's Twitter handle
