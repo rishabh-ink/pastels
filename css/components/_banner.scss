@@ -5,3 +5,23 @@
   top: $header-height;
   z-index: $banner-zindex;
 }
+
+.banner--home {
+  background-color: $banner-color-home;
+}
+
+.banner--about {
+  background-color: $banner-color-about;
+}
+
+.banner--contact {
+  background-color: $banner-color-contact;
+}
+
+.banner--page {
+  background-color: $banner-color-page;
+}
+
+.banner--post {
+  background-color: $banner-color-post;
+}
