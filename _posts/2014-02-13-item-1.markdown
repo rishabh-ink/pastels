@@ -1,5 +1,6 @@
 ---
 layout: page
+banner: page
 categories: pages
 
 title: "Item 1"
