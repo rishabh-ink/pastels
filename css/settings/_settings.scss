@@ -1,8 +1,10 @@
 /**
- * ⚑ Heights
+ * ⚑ Dimensions
  */
 $header-height: 8rem;
-$banner-height: 20rem;
+$banner-height: 22rem;
+
+$item-padding: 2rem;
 
 
 
@@ -14,3 +16,29 @@ $banner-height: 20rem;
 $header-zindex: 15;
 $banner-zindex: 5;
 $item-zindex: 10;
+$footer-zindex: 10;
+
+
+
+
+
+/**
+ * ⚑ Colors
+ * Courtesy www.colourlovers.com
+ */
+$pastel-color-vanilla-cream: rgba(252, 251, 227, 1);
+$pastel-color-yellow-shift: rgba(255, 255, 153, 1);
+$pastel-color-exotic-orange: rgba(255, 164, 70, 1);
+$pastel-color-fresh-mold: rgba(178, 203, 163, 1);
+$pastel-color-pegasus-ice-cream: rgba(239, 170, 161, 1);
+$pastel-color-blueberry-dragon: rgba(106, 102, 126, 1);
+$pastel-color-blueberry-dragon-alt: rgba(157, 152, 184, 1);
+
+$banner-color-home: $pastel-color-blueberry-dragon-alt;
+$banner-color-about: $pastel-color-exotic-orange;
+$banner-color-contact: $pastel-color-fresh-mold;
+$banner-color-page: $pastel-color-pegasus-ice-cream;
+$banner-color-post: $pastel-color-yellow-shift;
+
+$item-background-color: white;
+$footer-background-color: white;
