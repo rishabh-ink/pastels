@@ -1,5 +1,15 @@
 .item {
+  background-color: $item-background-color;
   margin-top: ($header-height + $banner-height);
+  padding: $item-padding;
+  min-height: $banner-height;
   position: relative;
   z-index: $item-zindex;
+}
+
+@media() {
+  .item__content {
+    width: 800px;
+    margin: auto;
+  }
 }
