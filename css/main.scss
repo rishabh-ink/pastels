@@ -1,4 +1,13 @@
 /**
+ * ⚑ Settings
+ */
+@import "settings/settings";
+
+
+
+
+
+/**
  * ⚑ Project scaffolding
  */
 @import "compass";
@@ -13,14 +22,6 @@
  * ⚑ Overrides
  */
 @import "overrides/reset";
-
-
-
-
-/**
- * ⚑ Settings
- */
-@import "settings/settings";
 
 
 
