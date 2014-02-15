@@ -1,6 +1,6 @@
 .header {
   background-color: silver;
-  padding: 1rem;
+  padding: $header-padding;
   position: fixed;
   height: $header-height;
   width: 100%;

@@ -3,6 +3,7 @@
  */
 // Header
 $header-height: 8rem;
+$header-padding: 0;
 // /Header
 
 // Banner
@@ -14,6 +15,11 @@ $banner-padding: 0 1rem;
 $item-padding: 1rem;
 $item-width: 32rem; // See https://baymard.com/blog/line-length-readability
 // /Item
+
+// Menu
+$menu__item-padding: 1rem 0.5rem;
+$menu__item-count: 4;
+// /Menu
 
 
 

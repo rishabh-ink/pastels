@@ -1,3 +1,19 @@
 .menu {
   list-style: none;
 }
+
+.menu__item {
+  background-color: tomato;
+  border: 1px solid black;
+  padding: $menu__item-padding;
+}
+
+.header .menu__item {
+  display: inline-block;
+  width: 100% / $menu__item-count;
+}
+
+.footer .menu__item {
+  display: block;
+  width: 100%;
+}

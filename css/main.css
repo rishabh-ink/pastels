@@ -510,7 +510,7 @@ body {
 .item {
   background-color: white;
   margin-top: 30rem;
-  padding: 2rem;
+  padding: 1rem;
   min-height: 22rem;
   position: relative;
   z-index: 10;
@@ -526,7 +526,7 @@ body {
 /* line 1, components/_header.scss */
 .header {
   background-color: silver;
-  padding: 1rem;
+  padding: 0;
   position: fixed;
   height: 8rem;
   width: 100%;
@@ -537,6 +537,25 @@ body {
 /* line 1, components/_menu.scss */
 .menu {
   list-style: none;
+}
+
+/* line 5, components/_menu.scss */
+.menu__item {
+  background-color: tomato;
+  border: 1px solid black;
+  padding: 1rem 0.5rem;
+}
+
+/* line 11, components/_menu.scss */
+.header .menu__item {
+  display: inline-block;
+  width: 25%;
+}
+
+/* line 16, components/_menu.scss */
+.footer .menu__item {
+  display: block;
+  width: 100%;
 }
 
 /* line 1, components/_footer.scss */
