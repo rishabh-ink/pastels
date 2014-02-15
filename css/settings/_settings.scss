@@ -1,18 +1,26 @@
 /**
  * ⚑ Dimensions
  */
+// Header
 $header-height: 8rem;
-$banner-height: 22rem;
+// /Header
 
+// Banner
+$banner-height: 22rem;
+$banner-padding: 0 1rem;
+// /Banner
+
+// Item
 $item-padding: 2rem;
 $item-width: 32rem; // See https://baymard.com/blog/line-length-readability
+// /Item
 
 
 
 
 
 /**
- * ⚑ Z-index management
+ * ⚑ Z-indexes
  */
 $header-zindex: 15;
 $banner-zindex: 5;
