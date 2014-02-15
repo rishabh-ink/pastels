@@ -2,14 +2,30 @@
   list-style: none;
 }
 
-.menu__item {
-  background-color: tomato;
-  border: 1px solid black;
-  padding: $menu__item-padding;
+.menu__item--home {
+  background-color: $banner-color-home;
+}
+
+.menu__item--about {
+  background-color: $banner-color-about;
+}
+
+.menu__item--contact {
+  background-color: $banner-color-contact;
+}
+
+.menu__item--pages {
+  background-color: $banner-color-page;
+}
+
+.menu__item--posts {
+  background-color: $banner-color-post;
 }
 
 .menu__item a {
   color: inherit;
+  display: block;
+  padding: $menu__item-padding;
   text-decoration: none;
 }
 
@@ -18,7 +34,10 @@
   width: 100% / $menu__item-count;
 }
 
-.footer .menu__item {
+.header .menu__item .fa {
   display: block;
+}
+
+.footer .menu__item {
   width: 100%;
 }
