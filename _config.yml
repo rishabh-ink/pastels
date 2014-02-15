@@ -37,4 +37,4 @@ social:
 # ⚑ Jekyll configuration
 markdown: redcarpet
 pygments: true
-exclude: ["bower.json", "lib", "config.rb", "*.sublime*", "readme.md", "license.md", "css/main.scss"]
+exclude: ["bower.json", "config.rb", "*.sublime*", "readme.md", "license.md", "css/main.scss"]
