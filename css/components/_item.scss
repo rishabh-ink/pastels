@@ -7,9 +7,8 @@
   z-index: $item-zindex;
 }
 
-@media() {
-  .item__content {
-    width: 800px;
-    margin: auto;
-  }
+.item__content {
+  max-width: $item-width;
+  margin: auto;
+  text-align: left;
 }
