@@ -7,6 +7,10 @@
   z-index: $banner-zindex;
 }
 
+.banner__action {
+  list-style: none;
+}
+
 .banner--home {
   background-color: $banner-color-home;
 }
