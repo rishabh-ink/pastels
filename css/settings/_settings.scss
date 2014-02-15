@@ -49,11 +49,18 @@ $pastel-color-pegasus-ice-cream: rgba(239, 170, 161, 1);
 $pastel-color-blueberry-dragon: rgba(106, 102, 126, 1);
 $pastel-color-blueberry-dragon-alt: rgba(157, 152, 184, 1);
 
-$banner-color-home: $pastel-color-blueberry-dragon-alt;
-$banner-color-about: $pastel-color-exotic-orange;
-$banner-color-contact: $pastel-color-fresh-mold;
-$banner-color-page: $pastel-color-pegasus-ice-cream;
-$banner-color-post: $pastel-color-yellow-shift;
+// http://www.colourlovers.com/palette/429993/Office_Supplies
+$pastel-color-post-it-pink: rgba(252, 199, 207, 1);
+$pastel-color-post-it-purple: rgba(210, 185, 214, 1);
+$pastel-color-post-it-blue: rgba(200, 227, 248, 1);
+$pastel-color-post-it-vanilla: rgba(247, 245, 194, 1);
+$pastel-color-post-it-orange: rgba(255, 203, 151, 1);
+
+$banner-color-home: $pastel-color-post-it-orange;
+$banner-color-about: $pastel-color-post-it-pink;
+$banner-color-contact: $pastel-color-post-it-blue;
+$banner-color-page: $pastel-color-post-it-purple;
+$banner-color-post: $pastel-color-post-it-vanilla;
 
 $item-background-color: white;
 $footer-background-color: white;
@@ -66,4 +73,4 @@ $footer-background-color: white;
  * ⚑ Library configuration
  */
 $fa-font-path: "/lib/font-awesome/fonts";
-$fa-margin-right: 0;
+$fa-margin-right: 0.25rem;
