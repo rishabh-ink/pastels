@@ -434,7 +434,7 @@ ul {
  * ⚑ Dimensions
  */
 /**
- * ⚑ Z-index management
+ * ⚑ Z-indexes
  */
 /**
  * ⚑ Colors
@@ -473,6 +473,7 @@ body {
 
 /* line 1, components/_banner.scss */
 .banner {
+  padding: 0 1rem;
   position: fixed;
   height: 22rem;
   width: 100%;
@@ -480,27 +481,27 @@ body {
   z-index: 5;
 }
 
-/* line 9, components/_banner.scss */
+/* line 10, components/_banner.scss */
 .banner--home {
   background-color: #9d98b8;
 }
 
-/* line 13, components/_banner.scss */
+/* line 14, components/_banner.scss */
 .banner--about {
   background-color: #ffa446;
 }
 
-/* line 17, components/_banner.scss */
+/* line 18, components/_banner.scss */
 .banner--contact {
   background-color: #b2cba3;
 }
 
-/* line 21, components/_banner.scss */
+/* line 22, components/_banner.scss */
 .banner--page {
   background-color: #efaaa1;
 }
 
-/* line 25, components/_banner.scss */
+/* line 26, components/_banner.scss */
 .banner--post {
   background-color: #ffff99;
 }
@@ -531,6 +532,11 @@ body {
   width: 100%;
   top: 0;
   z-index: 15;
+}
+
+/* line 1, components/_menu.scss */
+.menu {
+  list-style: none;
 }
 
 /* line 1, components/_footer.scss */
