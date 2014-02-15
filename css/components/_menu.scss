@@ -2,10 +2,6 @@
   list-style: none;
 }
 
-.menu__item--home {
-  background-color: $banner-color-home;
-}
-
 .menu__item--about {
   background-color: $banner-color-about;
 }
@@ -40,4 +36,8 @@
 
 .footer .menu__item {
   width: 100%;
+}
+
+.footer .menu__item .fa {
+  margin-right: $fa-margin-right;
 }
