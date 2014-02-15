@@ -8,6 +8,11 @@
   padding: $menu__item-padding;
 }
 
+.menu__item a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .header .menu__item {
   display: inline-block;
   width: 100% / $menu__item-count;
