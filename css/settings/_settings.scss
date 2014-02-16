@@ -16,13 +16,17 @@ $item-padding: 1rem;
 $item-width: 32rem; // See https://baymard.com/blog/line-length-readability
 // /Item
 
+// Nav
+$nav--header-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) inset;
+// /Nav
+
 // Menu
 $menu-width: 32rem;
 $menu__item-border-radius: 1px;
-$menu__item-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) inset;
+$menu__item-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) inset, 0 0 5px 0 rgba(0, 0, 0, 0.2);
 $menu__item-background-color: rgba(0, 0, 0, 0.2);
 $menu__item-padding: 1rem 0.5rem;
-$menu__item-margin: 0.5rem;
+$menu__item-margin: 0.25rem;
 $menu__item-count: 4;
 // /Menu
 
