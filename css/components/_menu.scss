@@ -29,6 +29,22 @@
   width: 100% / $menu__item-count;
 }
 
+.menu__item--about a {
+  background-color: rgba($banner-color-about, 0.5);
+}
+
+.menu__item--contact a {
+  background-color: rgba($banner-color-contact, 0.5);
+}
+
+.menu__item--pages a {
+  background-color: rgba($banner-color-page, 0.5);
+}
+
+.menu__item--posts a {
+  background-color: rgba($banner-color-post, 0.5);
+}
+
 .header .menu__item .fa {
   display: block;
   font-size: 2rem;
