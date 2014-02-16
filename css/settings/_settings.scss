@@ -65,11 +65,18 @@ $pastel-color-post-it-blue: rgba(200, 227, 248, 1);
 $pastel-color-post-it-vanilla: rgba(247, 245, 194, 1);
 $pastel-color-post-it-orange: rgba(255, 203, 151, 1);
 
-$banner-color-home: $pastel-color-post-it-orange;
-$banner-color-about: $pastel-color-post-it-pink;
-$banner-color-contact: $pastel-color-post-it-blue;
-$banner-color-page: $pastel-color-post-it-purple;
-$banner-color-post: $pastel-color-post-it-vanilla;
+// http://www.colourlovers.com/palette/87946/Very
+$pastel-color-very-winter-blone: rgba(187, 187, 136, 1);
+$pastel-color-very-very-khaki: rgba(204, 198, 141, 1);
+$pastel-color-very-dusk: rgba(238, 221, 153, 1);
+$pastel-color-very-soft: rgba(238, 194, 144, 1);
+$pastel-color-very-4chan: rgba(238, 170, 136, 1);
+
+$banner-color-home: $pastel-color-very-dusk;
+$banner-color-about: $pastel-color-very-very-khaki;
+$banner-color-contact: $pastel-color-very-winter-blone;
+$banner-color-page: $pastel-color-very-soft;
+$banner-color-post: $pastel-color-very-4chan;
 
 $body-color: rgba(64, 64, 64, 1);
 $item-background-color: white;
@@ -81,6 +88,18 @@ $footer-background-color: white;
 
 
 /**
+ * ⚑ Fonts
+ */
+$font-family-fira-sans: "Fira Sans", sans-serif;
+
+$sans-font-family: $font-family-fira-sans;
+
+$base-font-family: $sans-font-family;
+$base-line-height: 1.1;
+
+
+
+ /**
  * ⚑ Library configuration
  */
 $fa-font-path: "/lib/font-awesome/fonts";

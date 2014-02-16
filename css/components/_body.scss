@@ -1,5 +1,6 @@
 body {
   color: $body-color;
-  font-family: sans-serif;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
   text-align: center;
 }
