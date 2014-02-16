@@ -2,13 +2,22 @@
 
   <nav class="nav  nav--header">
     <ul class="menu">
-      <li class="menu__item  menu__item--pages"><a href="/pages.html"><i class="fa fa-pagelines"></i>Pages</a></li><!--
-      --><li class="menu__item  menu__item--posts"><a href="/posts.html"><i class="fa fa-file"></i>Posts</a></li><!--
-      --><li class="menu__item  menu__item--about"><a href="/about.html"><i class="fa fa-user"></i>About</a></li><!--
-      --><li class="menu__item  menu__item--contact"><a href="/contact.html"><i class="fa fa-envelope"></i>Contact</a></li>
+      <li class="menu__item  menu__item--pages"><a class="menu__item__link" href="/pages.html"><i class="fa fa-pagelines"></i>Pages</a></li><!--
+      --><li class="menu__item  menu__item--posts"><a class="menu__item__link" href="/posts.html"><i class="fa fa-file"></i>Posts</a></li><!--
+      --><li class="menu__item  menu__item--about"><a class="menu__item__link" href="/about.html"><i class="fa fa-user"></i>About</a></li><!--
+      --><li class="menu__item  menu__item--contact"><a class="menu__item__link" href="/contact.html"><i class="fa fa-envelope"></i>Contact</a></li>
     </ul>
   </nav>
 
-  <a href="/" class="logo">{{ site.title }}</a>
+  <nav class="nav  nav--mobile">
+    <ul class="menu">
+      <li class="menu__item  menu__item--home"><a class="menu__item__link" href="/"><i class="fa fa-home"></i>Home</a></li>
+      <li class="menu__item  menu__item--menu"><a class="menu__item__link" href="#footer"><i class="fa fa-ellipsis-v"></i>Menu</a></li>
+    </ul>
+  </nav>
+
+  <a href="/" class="logo">
+    <img src="/img/{{ site.logo }}" alt="{{ site.title }}" />
+  </a>
 
 </header> <!-- /.header -->

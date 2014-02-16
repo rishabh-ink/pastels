@@ -12,7 +12,7 @@
   margin: auto;
 }
 
-.menu__item a {
+.menu__item .menu__item__link {
   border-radius: $menu__item-border-radius;
   color: inherit;
   display: block;
@@ -21,28 +21,45 @@
   text-decoration: none;
 }
 
-.header .menu__item {
+.nav--header .menu__item {
   display: inline-block;
   width: 100% / $menu__item-count;
 }
 
-.menu__item--about a {
+.nav--mobile .fa {
+  margin-right: $fa-margin-right;
+}
+
+.nav--mobile .menu__item--home {
+  float: left;
+}
+
+.nav--mobile .menu__item--menu {
+  float: right;
+}
+
+.nav--mobile .menu__item__link {
+  background-color: $banner-color-home;
+  padding: $menu__item--mobile-padding;
+}
+
+.menu__item--about .menu__item__link {
   background-color: rgba($banner-color-about, 0.5);
 }
 
-.menu__item--contact a {
+.menu__item--contact .menu__item__link {
   background-color: rgba($banner-color-contact, 0.5);
 }
 
-.menu__item--pages a {
+.menu__item--pages .menu__item__link {
   background-color: rgba($banner-color-page, 0.5);
 }
 
-.menu__item--posts a {
+.menu__item--posts .menu__item__link {
   background-color: rgba($banner-color-post, 0.5);
 }
 
-.header .menu__item .fa {
+.nav--header .menu__item .fa {
   display: block;
   font-size: 2rem;
 }
@@ -53,4 +70,20 @@
 
 .footer .menu__item .fa {
   margin-right: $fa-margin-right;
+}
+
+@media (min-width: $screen-md-min) {
+  .nav--mobile {
+    display: none;
+  }
+
+  .nav--header {
+    background-image: none;
+  }
+
+  .nav--header .menu__item .fa {
+    display: initial;
+    font-size: 1rem;
+    margin-right: $fa-margin-right;
+  }
 }

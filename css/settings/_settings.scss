@@ -2,9 +2,14 @@
  * ⚑ Dimensions
  */
 // Header
-$header-height: 8rem;
+$header-height: 9rem;
 $header-padding: 0;
 // /Header
+
+// Logo
+$logo-size--sm: 3rem;
+$logo-size--md: 5rem;
+// /Logo
 
 // Banner
 $banner-height: 22rem;
@@ -26,6 +31,7 @@ $menu__item-border-radius: 1px;
 $menu__item-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) inset, 0 0 5px 0 rgba(0, 0, 0, 0.2);
 $menu__item-background-color: rgba(0, 0, 0, 0.2);
 $menu__item-padding: 1rem 0.5rem;
+$menu__item--mobile-padding: 0.5rem;
 $menu__item-margin: 0.25rem;
 $menu__item-count: 4;
 // /Menu
@@ -80,7 +86,8 @@ $banner-color-post: $pastel-color-very-4chan;
 
 $body-color: rgba(64, 64, 64, 1);
 $item-background-color: white;
-$header-background-color: $pastel-color-exotic-orange;
+$header-background-color: white;
+$header-border-bottom: 5px solid rgba(64, 64, 64, 1);
 $footer-background-color: white;
 
 
@@ -95,11 +102,28 @@ $font-family-fira-sans: "Fira Sans", sans-serif;
 $sans-font-family: $font-family-fira-sans;
 
 $base-font-family: $sans-font-family;
-$base-line-height: 1.1;
+$base-line-height: 1.25;
 
 
 
- /**
+
+/**
+ * ⚑ Media query breakpoints
+ */
+/* Small devices (tablets, 768px and up) */
+$screen-sm-min: 48em;
+
+/* Medium devices (desktops, 992px and up) */
+$screen-md-min: 62em;
+
+/* Large devices (large desktops, 1200px and up) */
+$screen-lg-min: 75em;
+
+
+
+
+
+/**
  * ⚑ Library configuration
  */
 $fa-font-path: "/lib/font-awesome/fonts";
