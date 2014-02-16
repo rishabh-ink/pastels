@@ -1,21 +1,7 @@
 .menu {
   list-style: none;
-}
-
-.menu__item--about {
-  background-color: $banner-color-about;
-}
-
-.menu__item--contact {
-  background-color: $banner-color-contact;
-}
-
-.menu__item--pages {
-  background-color: $banner-color-page;
-}
-
-.menu__item--posts {
-  background-color: $banner-color-post;
+  max-width: $menu-width;
+  margin: auto;
 }
 
 .menu__item a {
