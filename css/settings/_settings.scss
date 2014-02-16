@@ -18,7 +18,11 @@ $item-width: 32rem; // See https://baymard.com/blog/line-length-readability
 
 // Menu
 $menu-width: 32rem;
+$menu__item-border-radius: 1px;
+$menu__item-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2) inset;
+$menu__item-background-color: rgba(0, 0, 0, 0.2);
 $menu__item-padding: 1rem 0.5rem;
+$menu__item-margin: 0.5rem;
 $menu__item-count: 4;
 // /Menu
 
@@ -62,6 +66,11 @@ $banner-color-about: $pastel-color-post-it-pink;
 $banner-color-contact: $pastel-color-post-it-blue;
 $banner-color-page: $pastel-color-post-it-purple;
 $banner-color-post: $pastel-color-post-it-vanilla;
+
+$body-color: rgba(64, 64, 64, 1);
+$item-background-color: white;
+$header-background-color: $pastel-color-exotic-orange;
+$footer-background-color: white;
 
 
 
