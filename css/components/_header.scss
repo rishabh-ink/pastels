@@ -3,10 +3,13 @@
   border-bottom: $header-border-bottom;
   padding: $header-padding;
   position: fixed;
-  height: $header-height;
+  height: $header-height--sm;
   width: 100%;
   top: 0;
   z-index: $header-zindex;
+  @include transition-property(top);
+  @include transition-delay(1s);
+  @include transition-timing-function("linear");
 }
 
 .header .logo__image {
@@ -15,6 +18,10 @@
 }
 
 @media (min-width: $screen-md-min) {
+  .header {
+    height: $header-height--md;
+  }
+
   .header .logo__image {
     width: $logo-size--md;
     height: $logo-size--md;

@@ -2,7 +2,8 @@
  * ⚑ Dimensions
  */
 // Header
-$header-height: 9rem;
+$header-height--sm: 9rem;
+$header-height--md: 4rem;
 $header-padding: 0;
 // /Header
 
@@ -86,8 +87,8 @@ $banner-color-post: $pastel-color-very-4chan;
 
 $body-color: rgba(64, 64, 64, 1);
 $item-background-color: white;
-$header-background-color: white;
-$header-border-bottom: 5px solid rgba(64, 64, 64, 1);
+$header-background-color: rgba(255, 255, 255, 0.8);
+$header-border-bottom: 5px solid rgba(64, 64, 64, 0.8);
 $footer-background-color: white;
 
 

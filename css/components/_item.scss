@@ -1,6 +1,6 @@
 .item {
   background-color: $item-background-color;
-  margin-top: ($header-height + $banner-height);
+  margin-top: ($header-height--md + $banner-height);
   padding: $item-padding;
   min-height: $banner-height;
   position: relative;
