@@ -1,5 +1,7 @@
 .item {
   background-color: $item-background-color;
+  border-top: $item-border-top;
+  box-shadow: $item-box-shadow;
   margin-top: ($header-height--md + $banner-height);
   padding: $item-padding;
   min-height: $banner-height;

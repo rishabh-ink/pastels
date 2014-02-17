@@ -16,7 +16,7 @@
 }
 
 .header--hidden {
-  top: -5.5rem;
+  top: $header-height--md - $header-height--sm;
 }
 
 .header .logo__image {
