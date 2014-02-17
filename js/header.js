@@ -26,15 +26,19 @@
       toggle: function (event) {
         el = document.getElementById(defaults.id);
 
-        if(el.classList.contains(defaults.shown)) {
-          window.Pastels.Header.hide(el);
-        } else {
-          if(el.classList.contains(defaults.hidden)) {
-            window.Pastels.Header.show(el);
+        try {
+          if(el.classList.contains(defaults.shown)) {
+            window.Pastels.Header.hide(el);
+          } else {
+            if(el.classList.contains(defaults.hidden)) {
+              window.Pastels.Header.show(el);
+            }
           }
-        }
 
-        event.preventDefault();
+          event.preventDefault();
+        } catch (error) {
+          // Falls back to internal link to #footer.
+        }
       } // /toggle()
     }; // /return;
   })(); // /window.Pastels.Header()
