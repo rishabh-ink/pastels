@@ -9,13 +9,13 @@
   z-index: $header-zindex;
 }
 
-.header .logo img {
+.header .logo__image {
   width: $logo-size--sm;
   height: $logo-size--sm;
 }
 
 @media (min-width: $screen-md-min) {
-  .header .logo img {
+  .header .logo__image {
     width: $logo-size--md;
     height: $logo-size--md;
   }
