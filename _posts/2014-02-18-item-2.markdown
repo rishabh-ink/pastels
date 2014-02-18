@@ -4,7 +4,7 @@ banner: page
 categories: pages
 
 title: "Item 2"
-logo: "logo/pastels-logo.png"
+logo: "logo/pastels-page.png"
 subtitle: "Item 2"
 description: "Item 2."
 ---

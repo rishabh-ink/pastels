@@ -2860,46 +2860,49 @@ body {
 /* line 27, components/_items.scss */
 .list-item__image {
   float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
 }
 
-/* line 31, components/_items.scss */
+/* line 34, components/_items.scss */
 .list-item__body {
   overflow: hidden;
 }
 
-/* line 35, components/_items.scss */
+/* line 38, components/_items.scss */
 .list-item__subtitle {
   font-size: 1.1rem;
 }
 
-/* line 39, components/_items.scss */
+/* line 42, components/_items.scss */
 .list-item__description {
   font-size: 0.9rem;
 }
 
-/* line 43, components/_items.scss */
+/* line 46, components/_items.scss */
 .items--pages .list-item__link {
   background-color: rgba(238, 194, 144, 0.1);
 }
-/* line 46, components/_items.scss */
+/* line 49, components/_items.scss */
 .items--pages .list-item__link:hover {
   background-color: rgba(238, 194, 144, 0.5);
 }
 
-/* line 51, components/_items.scss */
+/* line 54, components/_items.scss */
 .items--posts .list-item__link {
   background-color: rgba(238, 170, 136, 0.1);
 }
-/* line 54, components/_items.scss */
+/* line 57, components/_items.scss */
 .items--posts .list-item__link:hover {
   background-color: rgba(238, 170, 136, 0.5);
 }
 
-/* line 59, components/_items.scss */
+/* line 62, components/_items.scss */
 .items--home .list-item__link {
   background-color: rgba(238, 221, 153, 0.1);
 }
-/* line 62, components/_items.scss */
+/* line 65, components/_items.scss */
 .items--home .list-item__link:hover {
   background-color: rgba(238, 221, 153, 0.5);
 }

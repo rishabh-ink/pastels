@@ -26,6 +26,9 @@
 
 .list-item__image {
   float: left;
+  width: $list-item-image-width;
+  height: $list-item-image-height;
+  margin-right: 1rem;
 }
 
 .list-item__body {
