@@ -43,18 +43,34 @@
 
 .menu__item--about .menu__item__link {
   background-color: rgba($banner-color-about, 0.5);
+
+  &:hover {
+    background-color: rgba($banner-color-about, 0.7);
+  }
 }
 
 .menu__item--contact .menu__item__link {
   background-color: rgba($banner-color-contact, 0.5);
+
+  &:hover {
+    background-color: rgba($banner-color-contact, 0.7);
+  }
 }
 
 .menu__item--pages .menu__item__link {
   background-color: rgba($banner-color-page, 0.5);
+
+  &:hover {
+    background-color: rgba($banner-color-page, 0.7);
+  }
 }
 
 .menu__item--posts .menu__item__link {
   background-color: rgba($banner-color-post, 0.5);
+
+  &:hover {
+    background-color: rgba($banner-color-post, 0.7);
+  }
 }
 
 .nav--header .menu__item .fa {
