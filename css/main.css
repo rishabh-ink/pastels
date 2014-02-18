@@ -3005,6 +3005,7 @@ body {
 /* line 1, components/_footer.scss */
 .footer {
   background-color: white;
+  margin-bottom: 2rem;
   position: relative;
   z-index: 10;
 }
