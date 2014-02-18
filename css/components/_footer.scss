@@ -1,6 +1,9 @@
 .footer {
   background-color: $footer-background-color;
-  margin-bottom: 2rem;
   position: relative;
   z-index: $footer-zindex;
+}
+
+.copyright {
+  margin: 2rem 0;
 }

@@ -3109,9 +3109,13 @@ body {
 /* line 1, components/_footer.scss */
 .footer {
   background-color: white;
-  margin-bottom: 2rem;
   position: relative;
   z-index: 10;
+}
+
+/* line 7, components/_footer.scss */
+.copyright {
+  margin: 2rem 0;
 }
 
 /* line 1, components/_link.scss */
