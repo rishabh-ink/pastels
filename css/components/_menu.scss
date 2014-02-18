@@ -41,6 +41,14 @@
   padding: $menu__item--mobile-padding;
 }
 
+.menu__item--home .menu__item__link {
+  background-color: rgba($banner-color-home, 0.5);
+
+  &:hover {
+    background-color: rgba($banner-color-home, 0.7);
+  }
+}
+
 .menu__item--about .menu__item__link {
   background-color: rgba($banner-color-about, 0.5);
 
