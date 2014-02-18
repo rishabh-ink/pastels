@@ -29,3 +29,15 @@
   );
 }
 
+.item__action__link:hover {
+  color: darken($body-color, 10%);
+}
+
+.item__action__link:visited {
+  color: lighten($body-color, 10%);
+}
+
+.item__action__link:disabled {
+  color: lighten($body-color, 20%);
+}
+

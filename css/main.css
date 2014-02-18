@@ -2809,6 +2809,21 @@ body {
   text-decoration: none;
 }
 
+/* line 32, components/_item.scss */
+.item__action__link:hover {
+  color: #272727;
+}
+
+/* line 36, components/_item.scss */
+.item__action__link:visited {
+  color: #5a5a5a;
+}
+
+/* line 40, components/_item.scss */
+.item__action__link:disabled {
+  color: #737373;
+}
+
 /* line 1, components/_items.scss */
 .items {
   list-style: none;
@@ -2924,20 +2939,28 @@ body {
 /* line 22, components/_header.scss */
 .header .logo {
   position: relative;
+}
+
+/* line 26, components/_header.scss */
+.header .logo__image {
   width: 3rem;
   height: 3rem;
 }
 
 @media (min-width: 62em) {
-  /* line 29, components/_header.scss */
+  /* line 32, components/_header.scss */
   .header {
     height: 4rem;
     top: 0;
   }
 
-  /* line 34, components/_header.scss */
+  /* line 37, components/_header.scss */
   .header .logo {
     top: -3rem;
+  }
+
+  /* line 41, components/_header.scss */
+  .header .logo__image {
     width: 5rem;
     height: 5rem;
   }
