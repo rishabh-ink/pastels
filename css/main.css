@@ -2713,6 +2713,7 @@ body {
   font-family: "Fira Sans", sans-serif;
   line-height: 1.25;
   text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
 /* line 1, components/_container.scss */
