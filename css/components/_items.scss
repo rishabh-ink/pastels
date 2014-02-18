@@ -25,10 +25,8 @@
 }
 
 .list-item__image {
-  float: left;
   width: $list-item-image-width;
   height: $list-item-image-height;
-  margin-right: 1rem;
 }
 
 .list-item__body {
@@ -64,5 +62,12 @@
 
   &:hover {
     background-color: rgba($banner-color-home, $item-background-color-opacity--hover);
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .list-item__image {
+    float: left;
+    margin-right: 1rem;
   }
 }
