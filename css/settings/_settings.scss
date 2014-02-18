@@ -20,6 +20,8 @@ $banner-padding: 0 1rem;
 // Item
 $item-padding: 1rem;
 $item-width: 32rem; // See https://baymard.com/blog/line-length-readability
+$list-item-margin: 0.5rem 0;
+$list-item-padding: 1rem;
 // /Item
 
 // Nav
@@ -87,6 +89,7 @@ $banner-color-post: $pastel-color-very-4chan;
 
 $body-color: rgba(64, 64, 64, 1);
 $item-background-color: white;
+$item-background-color-opacity: 0.1;
 $header-background-color: rgba(255, 255, 255, 0.8);
 $item-border-top: 2px solid rgba(64, 64, 64, 0.5);
 $item-box-shadow: 0 -10px 20px -5px rgba(0, 0, 0, 0.3);

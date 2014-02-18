@@ -1,0 +1,29 @@
+.items {
+  list-style: none;
+}
+
+.list-item__link {
+  @include clearfix();
+  color: inherit;
+  display: block;
+  width: 100%;
+  margin: $list-item-margin;
+  padding: $list-item-padding;
+  text-decoration: none;
+}
+
+.list-item__image {
+  float: left;
+}
+
+.items--pages .list-item__link {
+  background-color: rgba($banner-color-page, $item-background-color-opacity);
+}
+
+.items--posts .list-item__link {
+  background-color: rgba($banner-color-post, $item-background-color-opacity);
+}
+
+.items--home .list-item__link {
+  background-color: rgba($banner-color-home, $item-background-color-opacity);
+}
