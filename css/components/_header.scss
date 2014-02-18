@@ -19,7 +19,7 @@
   top: $header-height--md - $header-height--sm;
 }
 
-.header .logo__image {
+.header .logo {
   position: relative;
   width: $logo-size--sm;
   height: $logo-size--sm;
@@ -31,7 +31,7 @@
     top: 0;
   }
 
-  .header .logo__image {
+  .header .logo {
     top: -(0.75 * $header-height--md);
     width: $logo-size--md;
     height: $logo-size--md;

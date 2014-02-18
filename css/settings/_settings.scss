@@ -99,7 +99,9 @@ $header-border-bottom: 2px solid rgba(64, 64, 64, 0.5) !default;
 $footer-background-color: white !default;
 $button-background-color: $banner-color-home;
 $item-action-margin: 2rem 0;
-
+$link-color: lighten(#3498db, 20%);
+$link-hover-color: darken($link-color, 5%);
+$link-active-color: lighten($link-color, 10%);
 
 
 /**

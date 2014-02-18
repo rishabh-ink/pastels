@@ -4,12 +4,24 @@
 
 .list-item__link {
   @include clearfix();
-  color: inherit;
+  color: $body-color;
   display: block;
   width: 100%;
   margin: $list-item-margin;
   padding: $list-item-padding;
   text-decoration: none;
+}
+
+.list-item__link:hover {
+  color: darken($body-color, 10%);
+}
+
+.list-item__link:visited {
+  color: lighten($body-color, 10%);
+}
+
+.list-item__link:disabled {
+  color: lighten($body-color, 20%);
 }
 
 .list-item__image {

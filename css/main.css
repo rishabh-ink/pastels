@@ -2803,7 +2803,7 @@ body {
 .item__action__link {
   background-color: #eedd99;
   border-radius: 1px;
-  color: inherit;
+  color: #404040;
   margin: 0.25rem;
   padding: 1rem 0.5rem;
   text-decoration: none;
@@ -2818,7 +2818,7 @@ body {
 .list-item__link {
   overflow: hidden;
   *zoom: 1;
-  color: inherit;
+  color: #404040;
   display: block;
   width: 100%;
   margin: 0.5rem 0;
@@ -2827,48 +2827,63 @@ body {
 }
 
 /* line 15, components/_items.scss */
+.list-item__link:hover {
+  color: #272727;
+}
+
+/* line 19, components/_items.scss */
+.list-item__link:visited {
+  color: #5a5a5a;
+}
+
+/* line 23, components/_items.scss */
+.list-item__link:disabled {
+  color: #737373;
+}
+
+/* line 27, components/_items.scss */
 .list-item__image {
   float: left;
 }
 
-/* line 19, components/_items.scss */
+/* line 31, components/_items.scss */
 .list-item__body {
   overflow: hidden;
 }
 
-/* line 23, components/_items.scss */
+/* line 35, components/_items.scss */
 .list-item__subtitle {
   font-size: 1.1rem;
 }
 
-/* line 27, components/_items.scss */
+/* line 39, components/_items.scss */
 .list-item__description {
   font-size: 0.9rem;
 }
 
-/* line 31, components/_items.scss */
+/* line 43, components/_items.scss */
 .items--pages .list-item__link {
   background-color: rgba(238, 194, 144, 0.1);
 }
-/* line 34, components/_items.scss */
+/* line 46, components/_items.scss */
 .items--pages .list-item__link:hover {
   background-color: rgba(238, 194, 144, 0.5);
 }
 
-/* line 39, components/_items.scss */
+/* line 51, components/_items.scss */
 .items--posts .list-item__link {
   background-color: rgba(238, 170, 136, 0.1);
 }
-/* line 42, components/_items.scss */
+/* line 54, components/_items.scss */
 .items--posts .list-item__link:hover {
   background-color: rgba(238, 170, 136, 0.5);
 }
 
-/* line 47, components/_items.scss */
+/* line 59, components/_items.scss */
 .items--home .list-item__link {
   background-color: rgba(238, 221, 153, 0.1);
 }
-/* line 50, components/_items.scss */
+/* line 62, components/_items.scss */
 .items--home .list-item__link:hover {
   background-color: rgba(238, 221, 153, 0.5);
 }
@@ -2907,7 +2922,7 @@ body {
 }
 
 /* line 22, components/_header.scss */
-.header .logo__image {
+.header .logo {
   position: relative;
   width: 3rem;
   height: 3rem;
@@ -2921,7 +2936,7 @@ body {
   }
 
   /* line 34, components/_header.scss */
-  .header .logo__image {
+  .header .logo {
     top: -3rem;
     width: 5rem;
     height: 5rem;
@@ -2944,7 +2959,7 @@ body {
   display: block;
   background-color: none;
   border-radius: 1px;
-  color: inherit;
+  color: #404040;
   margin: 0.25rem;
   padding: 1rem 0.5rem;
   text-decoration: none;
@@ -3040,4 +3055,22 @@ body {
   margin-bottom: 2rem;
   position: relative;
   z-index: 10;
+}
+
+/* line 1, components/_link.scss */
+a {
+  color: #8bc4ea;
+  text-decoration: none;
+}
+/* line 5, components/_link.scss */
+a:visited {
+  color: #8bc4ea;
+}
+/* line 10, components/_link.scss */
+a:hover, a:focus {
+  color: #75b9e7;
+}
+/* line 14, components/_link.scss */
+a:active {
+  color: #b6daf2;
 }
