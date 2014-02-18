@@ -15,6 +15,10 @@ actions:
     style: facebook
 ---
 
-{% for post in site.categories.posts limit: 2 %}
-  <a href="{{ post.url }}">{{ post.title }}</a>
-{% endfor %}
+<ul class="items  items--home">
+  {% for post in site.categories.posts limit: 2 %}
+    <li class="items__list-item  items__list-item--home">
+      <a class="list-item__link" href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

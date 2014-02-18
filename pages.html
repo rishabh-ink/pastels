@@ -8,6 +8,10 @@ subtitle: "All Pages"
 description: "All my pages"
 ---
 
-{% for page in site.categories.pages %}
-  <a href="{{ page.url }}">{{ page.title }}</a>
-{% endfor %}
+<ul class="items  items--home">
+  {% for page in site.categories.pages %}
+    <li class="items__list-item  items__list-item--pages">
+      <a class="list-item__link" href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
