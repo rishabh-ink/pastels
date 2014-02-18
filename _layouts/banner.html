@@ -16,7 +16,9 @@ layout: blog
     <ul class="banner__action">
       {% for action in page.actions %}
         <li class="action__item  action__item--{{ action.style }}">
-          <a href="{{ action.link }}">{{ action.name }}</a>
+          <a href="{{ action.link }}">
+            <img height="32" width="32" src="/img/actions/{{ action.image }}" alt="{{ action.name }}" />
+          </a>
         </li>
       {% endfor %}
     </ul> <!-- /.banner__actions -->

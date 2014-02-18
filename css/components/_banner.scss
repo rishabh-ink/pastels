@@ -8,8 +8,19 @@
   z-index: $banner-zindex;
 }
 
+.banner__subtitle,
+.banner__description,
+.banner__action {
+  margin: $banner-internal-margin;
+}
+
 .banner__action {
   list-style: none;
+}
+
+.banner__action .action__item {
+  display: inline-block;
+  margin: 0 0.5rem;
 }
 
 .banner--home {
