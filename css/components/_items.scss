@@ -30,12 +30,24 @@
 
 .items--pages .list-item__link {
   background-color: rgba($banner-color-page, $item-background-color-opacity);
+
+  &:hover {
+    background-color: rgba($banner-color-page, $item-background-color-opacity--hover);
+  }
 }
 
 .items--posts .list-item__link {
   background-color: rgba($banner-color-post, $item-background-color-opacity);
+
+  &:hover {
+    background-color: rgba($banner-color-post, $item-background-color-opacity--hover);
+  }
 }
 
 .items--home .list-item__link {
   background-color: rgba($banner-color-home, $item-background-color-opacity);
+
+  &:hover {
+    background-color: rgba($banner-color-home, $item-background-color-opacity--hover);
+  }
 }

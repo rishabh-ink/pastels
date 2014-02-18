@@ -2826,15 +2826,27 @@ body {
 .items--pages .list-item__link {
   background-color: rgba(238, 194, 144, 0.1);
 }
-
-/* line 35, components/_items.scss */
-.items--posts .list-item__link {
-  background-color: rgba(238, 170, 136, 0.1);
+/* line 34, components/_items.scss */
+.items--pages .list-item__link:hover {
+  background-color: rgba(238, 194, 144, 0.5);
 }
 
 /* line 39, components/_items.scss */
+.items--posts .list-item__link {
+  background-color: rgba(238, 170, 136, 0.1);
+}
+/* line 42, components/_items.scss */
+.items--posts .list-item__link:hover {
+  background-color: rgba(238, 170, 136, 0.5);
+}
+
+/* line 47, components/_items.scss */
 .items--home .list-item__link {
   background-color: rgba(238, 221, 153, 0.1);
+}
+/* line 50, components/_items.scss */
+.items--home .list-item__link:hover {
+  background-color: rgba(238, 221, 153, 0.5);
 }
 
 /* line 1, components/_header.scss */
