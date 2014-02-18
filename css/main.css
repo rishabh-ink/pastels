@@ -2808,16 +2808,31 @@ body {
 }
 
 /* line 19, components/_items.scss */
+.list-item__body {
+  overflow: hidden;
+}
+
+/* line 23, components/_items.scss */
+.list-item__subtitle {
+  font-size: 1.1rem;
+}
+
+/* line 27, components/_items.scss */
+.list-item__description {
+  font-size: 0.9rem;
+}
+
+/* line 31, components/_items.scss */
 .items--pages .list-item__link {
   background-color: rgba(238, 194, 144, 0.1);
 }
 
-/* line 23, components/_items.scss */
+/* line 35, components/_items.scss */
 .items--posts .list-item__link {
   background-color: rgba(238, 170, 136, 0.1);
 }
 
-/* line 27, components/_items.scss */
+/* line 39, components/_items.scss */
 .items--home .list-item__link {
   background-color: rgba(238, 221, 153, 0.1);
 }

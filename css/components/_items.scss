@@ -16,6 +16,18 @@
   float: left;
 }
 
+.list-item__body {
+  overflow: hidden;
+}
+
+.list-item__subtitle {
+  font-size: $font-size--l;
+}
+
+.list-item__description {
+  font-size: $font-size--s;
+}
+
 .items--pages .list-item__link {
   background-color: rgba($banner-color-page, $item-background-color-opacity);
 }
