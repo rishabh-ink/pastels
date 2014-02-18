@@ -2591,12 +2591,20 @@ table {
 }
 
 /**
+ * ⚑ Utilities
+ */
+/**
  * ⚑ Overrides
  */
 /* line 1, overrides/_reset.scss */
 ul {
   margin: 0;
   padding: 0;
+}
+
+/* line 2, overrides/_library.scss */
+.fa--space {
+  margin-right: 0.25rem;
 }
 
 @font-face {
@@ -2785,6 +2793,22 @@ body {
   text-align: left;
 }
 
+/* line 18, components/_item.scss */
+.item__action {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+/* line 23, components/_item.scss */
+.item__action__link {
+  background-color: #eedd99;
+  border-radius: 1px;
+  color: inherit;
+  margin: 0.25rem;
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+}
+
 /* line 1, components/_items.scss */
 .items {
   list-style: none;
@@ -2917,97 +2941,93 @@ body {
 
 /* line 11, components/_menu.scss */
 .menu__item .menu__item__link {
+  display: block;
+  background-color: none;
   border-radius: 1px;
   color: inherit;
-  display: block;
   margin: 0.25rem;
   padding: 1rem 0.5rem;
   text-decoration: none;
 }
 
-/* line 20, components/_menu.scss */
+/* line 21, components/_menu.scss */
 .nav--header .menu__item {
   display: inline-block;
   position: relative;
   width: 25%;
 }
 
-/* line 26, components/_menu.scss */
+/* line 27, components/_menu.scss */
 .nav--mobile .fa {
   margin-right: 0.25rem;
 }
 
-/* line 30, components/_menu.scss */
+/* line 31, components/_menu.scss */
 .nav--mobile .menu__item--home {
   float: left;
 }
 
-/* line 34, components/_menu.scss */
+/* line 35, components/_menu.scss */
 .nav--mobile .menu__item--menu {
   float: right;
 }
 
-/* line 38, components/_menu.scss */
+/* line 39, components/_menu.scss */
 .nav--mobile .menu__item__link {
   background-color: #eedd99;
   padding: 0.5rem;
 }
 
-/* line 43, components/_menu.scss */
+/* line 44, components/_menu.scss */
 .menu__item--about .menu__item__link {
   background-color: rgba(204, 198, 141, 0.5);
 }
 
-/* line 47, components/_menu.scss */
+/* line 48, components/_menu.scss */
 .menu__item--contact .menu__item__link {
   background-color: rgba(187, 187, 136, 0.5);
 }
 
-/* line 51, components/_menu.scss */
+/* line 52, components/_menu.scss */
 .menu__item--pages .menu__item__link {
   background-color: rgba(238, 194, 144, 0.5);
 }
 
-/* line 55, components/_menu.scss */
+/* line 56, components/_menu.scss */
 .menu__item--posts .menu__item__link {
   background-color: rgba(238, 170, 136, 0.5);
 }
 
-/* line 59, components/_menu.scss */
+/* line 60, components/_menu.scss */
 .nav--header .menu__item .fa {
   display: block;
   font-size: 2rem;
 }
 
-/* line 64, components/_menu.scss */
+/* line 65, components/_menu.scss */
 .footer .menu__item {
   width: 100%;
 }
 
-/* line 68, components/_menu.scss */
-.footer .menu__item .fa {
-  margin-right: 0.25rem;
-}
-
 @media (min-width: 62em) {
-  /* line 73, components/_menu.scss */
+  /* line 70, components/_menu.scss */
   .nav--mobile {
     display: none;
   }
 
-  /* line 78, components/_menu.scss */
+  /* line 75, components/_menu.scss */
   .nav--header .menu__item--pages,
   .nav--header .menu__item--posts {
     left: -25%;
   }
 
-  /* line 83, components/_menu.scss */
+  /* line 80, components/_menu.scss */
   .nav--header .menu__item--about,
   .nav--header .menu__item--contact {
     right: -25%;
   }
 
-  /* line 89, components/_menu.scss */
+  /* line 86, components/_menu.scss */
   .nav--header .menu__item .fa {
     display: initial;
     font-size: 1rem;

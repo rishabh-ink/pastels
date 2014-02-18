@@ -14,3 +14,18 @@
   margin: auto;
   text-align: left;
 }
+
+.item__action {
+  margin: $item-action-margin;
+  text-align: center;
+}
+
+.item__action__link {
+    @include button(
+    $button-background-color,
+    $menu__item-border-radius,
+    $menu__item-margin,
+    $menu__item-padding
+  );
+}
+

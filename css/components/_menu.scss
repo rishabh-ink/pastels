@@ -9,12 +9,13 @@
 }
 
 .menu__item .menu__item__link {
-  border-radius: $menu__item-border-radius;
-  color: inherit;
   display: block;
-  margin: $menu__item-margin;
-  padding: $menu__item-padding;
-  text-decoration: none;
+  @include button(
+    none,
+    $menu__item-border-radius,
+    $menu__item-margin,
+    $menu__item-padding
+  );
 }
 
 .nav--header .menu__item {
@@ -63,10 +64,6 @@
 
 .footer .menu__item {
   width: 100%;
-}
-
-.footer .menu__item .fa {
-  margin-right: $fa-margin-right;
 }
 
 @media (min-width: $screen-md-min) {
