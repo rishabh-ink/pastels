@@ -15,7 +15,7 @@ $logo-size--md: 5rem !default;
 // Banner
 $banner-height: 22rem !default;
 $banner-padding: 0 1rem !default;
-$banner-internal-margin: 0.5rem 0 !default;
+$banner-internal-margin: 0.4rem 0 !default;
 // /Banner
 
 // Item
@@ -41,6 +41,12 @@ $menu__item--mobile-padding: 0.5rem !default;
 $menu__item-margin: 0.25rem !default;
 $menu__item-count: 4 !default;
 // /Menu
+
+// Highlight
+$highlight-margin: 2rem 0 !default;
+$highlight-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5) inset !default;
+$highlight-padding: 2rem 1rem;
+// /Highlight
 
 
 
@@ -104,7 +110,7 @@ $item-action-margin: 2rem 0;
 $link-color: lighten(#3498db, 20%);
 $link-hover-color: darken($link-color, 5%);
 $link-active-color: lighten($link-color, 10%);
-
+$highlight-background-color: rgba($pastel-color-post-it-vanilla, 0.4);
 
 /**
  * ⚑ Fonts
@@ -114,7 +120,7 @@ $font-family-fira-sans: "Fira Sans", sans-serif !default;
 $sans-font-family: $font-family-fira-sans !default;
 
 $base-font-family: $sans-font-family !default;
-$base-line-height: 1.25 !default;
+$base-line-height: 1.5 !default;
 
 $font-size-base: 1rem !default;
 $font-size--s: 0.9rem !default;
