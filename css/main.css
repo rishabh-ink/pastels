@@ -3501,11 +3501,13 @@ body {
 /* line 1, components/_footer.scss */
 .footer {
   background-color: white;
+  border-top: 1px solid rgba(64, 64, 64, 0.2);
+  border-bottom: 1px solid rgba(64, 64, 64, 0.2);
   position: relative;
   z-index: 10;
 }
 
-/* line 7, components/_footer.scss */
+/* line 9, components/_footer.scss */
 .copyright {
   margin: 2rem 0;
 }
@@ -3531,6 +3533,7 @@ a:active {
 /* line 1, components/_highlight.scss */
 .highlight {
   background-color: rgba(247, 245, 194, 0.4);
+  border-radius: 1px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5) inset;
   margin: 2rem 0;
   padding: 2rem 1rem;

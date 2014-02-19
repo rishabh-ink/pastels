@@ -46,6 +46,7 @@ $menu__item-count: 4 !default;
 $highlight-margin: 2rem 0 !default;
 $highlight-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5) inset !default;
 $highlight-padding: 2rem 1rem;
+$highlight-border-radius: 1px !default;
 // /Highlight
 
 
@@ -104,6 +105,7 @@ $header-background-color: rgba(255, 255, 255, 0.8) !default;
 $item-border-top: 2px solid rgba(64, 64, 64, 0.5) !default;
 $item-box-shadow: 0 -10px 20px -5px rgba(0, 0, 0, 0.3) !default;
 $header-border-bottom: 2px solid rgba(64, 64, 64, 0.5) !default;
+$footer-border: 1px solid rgba(64, 64, 64, 0.2) !default;
 $footer-background-color: white !default;
 $button-background-color: $banner-color-home;
 $item-action-margin: 2rem 0;
