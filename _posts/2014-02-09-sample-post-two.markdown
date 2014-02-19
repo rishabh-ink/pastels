@@ -4,6 +4,7 @@ banner: post
 
 title:  "Sample post 2"
 date:   2014-02-09 20:23:08
+comments: false
 categories: posts
 
 logo: "logo/pastels-post.png"

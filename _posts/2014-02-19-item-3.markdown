@@ -5,6 +5,7 @@ categories: pages
 
 title: "Item 3"
 logo: "logo/pastels-page.png"
+comments: true
 subtitle: "Item 3"
 description: "Item 3."
 ---

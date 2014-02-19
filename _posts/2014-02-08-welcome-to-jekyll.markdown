@@ -4,6 +4,7 @@ banner: post
 
 title:  "Welcome to Jekyll!"
 date:   2014-02-08 20:23:08
+comments: true
 categories: posts
 ---
 
