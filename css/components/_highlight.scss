@@ -5,3 +5,9 @@
   margin: $highlight-margin;
   padding: $highlight-padding;
 }
+
+.lineno {
+  font-size: $lineno-font-size;
+  padding: $lineno-padding;
+  opacity: $lineno-opacity;
+}
