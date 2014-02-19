@@ -3307,7 +3307,7 @@ body {
 /* line 1, components/_header.scss */
 .header {
   background-color: rgba(255, 255, 255, 0.8);
-  border-bottom: 2px solid rgba(64, 64, 64, 0.5);
+  border-bottom: 1px solid rgba(64, 64, 64, 0.5);
   padding: 0;
   position: fixed;
   height: 9rem;
