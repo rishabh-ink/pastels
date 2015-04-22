@@ -4,7 +4,7 @@ source "https://rubygems.org"
 #ruby-gemset=pastels-jewellery-box
 
 # rubygems.org/gems/jekyll
-gem 'jekyll', '~> 2.5.1'
+gem 'jekyll', '~> 2.5.3'
 
 # rubygems.org/gems/compass
-gem 'compass', '~> 1.0.1'
+gem 'compass', '~> 1.0.3'
